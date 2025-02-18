@@ -54,6 +54,7 @@ public class TestApp {
         WebElement el23 = driver.findElement(AppiumBy.androidUIAutomator("new UiSelector().resourceId(\"com.androidsample.generalstore:id/productAddCart\").instance(1)"));
         el23.click();
         WebElement location = driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().text(\"PG 3\"))"));
+        location.click();
         WebElement el24 = driver.findElement(AppiumBy.androidUIAutomator("new UiSelector().resourceId(\"com.androidsample.generalstore:id/productAddCart\").instance(2)"));
         el24.click();
         WebElement el25 = driver.findElement(AppiumBy.id("com.androidsample.generalstore:id/appbar_btn_cart"));

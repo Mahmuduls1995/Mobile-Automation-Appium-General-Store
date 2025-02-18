@@ -2,6 +2,9 @@
 
 This project demonstrates mobile automation testing using **Appium** for an Android application called **General Store**. The test script is written in **Java** with **TestNG** and interacts with the app by performing actions such as selecting a country, entering a name, selecting gender, adding items to the cart, and proceeding to checkout.
 
+## First of You Can See Video For Autumation Result Video Link:
+https://github.com/user-attachments/assets/6476b3b3-122c-4c10-a2b2-17ffda74b843
+
 ## Features
 - Automates the General Store app using **Appium**.
 - Uses **TestNG** for structured test execution.
